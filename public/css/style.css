@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-top{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 60%;
+}
+
+#buscador{
+    border-radius: 5px;
+    border: solid 2px black;
+    ;
+        
+
+}
+#lupa{
+    background-color: #ebebeb;
+    width: 25px;
+    border: solid 2px black;
+    margin: auto;
+    border-radius: 3px;
+}
+
+.menu{
+    display: none;
+}
+.menu ul{
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+}
+.menu a {
+    text-decoration: none;
+    color: #222222;
+    display:inline-block;
+    padding: 5px 0px;
+}
+.menu-izq{
+        font-size: 17px;
+    }
+    .menu-der {
+        font-size: 17px;
+
+    }
+.burger-menu{
+    color: rgb(251, 253, 253);
+    font-size: 35px;
+    bottom: auto; 
+    background: #03264C;
+    background-size: inherit;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+  
+
+h3{
+    font-size: 16px;
+    position: relative;
+    left: 30px;
+    margin: auto;
+    ;
+    ;
+
+}
+
+p{font-size: 12px;
+line-height: 20px;
+}
+
+.titulares {font-size: 24px;}
+
+.precio{font-size: 18px;
+width: 30%;
+}
+.descuentos{font-size: 16px;
+    color: green;
+    width: 70%;
+    
+}
+.productos {
+    font-size: 16px;
+    opacity: 0.4;
+    line-height: 40px;
+     ;
+}
+
+.fondo{
+    background-color: #EAC926;
+    width: 100%;
+    }
+.logo{
+    max-width: 80%;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #ebebeb;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+#truck {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    color:#39b54a;
+    }
+.contenedor01{
+    width: 100%;
+    padding: 15px;
+    border-top: solid 1px #ebebeb;
+    
+}
+.contenedor0101{
+    width: 100%;
+    padding:15px;
+    border-top: solid 5px #ebebeb;
+    display: flex;
+    flex-direction: row;
+        ;
+}
+footer{
+    text-align: center;
+    line-height: 20px;
+    }
+#icono{
+    font-size: 2em;
+    color: #03264C;
+    }
+.final{
+    opacity: 0.8;
+    text-align: left;
+}
+article{
+    line-height: 10px;
+    
+}
+
+@media(min-width: 361px ) {
+    .header-top{
+        display: flex;
+        justify-content: space-between;
+        
+
+    }
+    .logo{
+        max-width: 30%;
+    }
+    #buscador{
+        max-height: 30px;
+        max-width: 40%;
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center ;
+    }
+    h3{
+        max-width: 350px;
+        text-align: right;
+         }
+  
+   .menu{
+    display:flex;
+    justify-content: space-between;
+    border : dotted 2px red
+   }
+   .menu ul {
+    display: flex;
+   }
+   .menu li{
+     display: flex ;
+     margin: 0px 5px;
+   }
+    .burger-menu{
+        display: none;
+    }
+    .contenedor01{
+        box-shadow: 0px 0px 10px rgb(100,100,100)
+    }
+
+}
+
+@media(min-width:769px){
+    
+    .menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu ul {
+        display: flex;
+       }
+    .menu li{
+         display: flex ;
+         margin: 0px 5px
+    }
+    .logo{
+        max-width: 30%;
+    }
+    #buscador{
+        max-height: 30px;
+        max-width: 40%;
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center ;
+    }
+    h3{
+        max-width: 350px;
+        text-align: right;
+         }
+
+    .burger-menu{
+        display: none;
+    }
+    .contenedor01{
+        box-shadow: 0px 0px 10px rgb(100,100,100)
+    }
+       }
