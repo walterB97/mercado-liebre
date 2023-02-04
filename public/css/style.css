@@ -12,13 +12,15 @@
 
 .search-bar{
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 #buscador{
     border-radius: 5px;
     border: solid 2px black;
-    max-width: 40%;
-    height: 20px;
-    font-size: 10px;
+    width: 80%;
+    height: 22px;
+    font-size: 12px;
     display: flex;
     flex-wrap: wrap;
         
@@ -26,7 +28,8 @@
 }
 #lupa{
     background-color: #ebebeb;
-    width: 25px;
+    width: 13%;
+    height: 21px;
     border: solid 2px black;
     margin: auto;
     border-radius: 3px;
@@ -63,19 +66,28 @@
     width: 40px;
     margin: auto;
     border-radius: 5px;
-    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
   
-
+.titulo-dollar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 22px;
+    text-align: center;
+}
 h3{
     font-size: 16px;
-    position: relative;
+    position: absolute;
     left: 30px;
     margin: auto;
-    ;
-    ;
-
-}
+  
+    }
 
 p{font-size: 12px;
 line-height: 20px;
@@ -180,22 +192,28 @@ article{
     .header-top{
         display: flex;
         justify-content: space-between;
+        width: 100%;
        }
     .logo{
-        max-width: 30%;
+        width: 30%;
+    }
+    .search-bar{
+        width: 30%
     }
     #buscador{
-        max-height: 30px;
-        max-width: 40%;
-        display: flex;
-        justify-content: center;
-        align-items: center ;
+        border-radius: 5px;
+    border: solid 2px black;
+    width: 80%;
+    height: 22px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
         
     }
-    h3{
-        max-width: 200px;
-        text-align: right;
-         }
+    .titulo-dollar{
+        width: 30%;
+    }
+    
   
    .menu{
     display:flex;
@@ -251,18 +269,20 @@ article{
         display: flex;
         flex-direction: row;
         align-items: center;
+
     }
     #buscador{
-        max-height: 50px;
-        max-width: 50%;
+        border-radius: 5px;
+        border: solid 2px black;
+        width: 80%;
+        height: 22px;
+        font-size: 12px;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-wrap: wrap;
     }
-    h3{
-        max-width: 200px;
-        text-align: right;
-         }
+    .titulo-dollar{
+        width: 30%;}
+    
 
     .burger-menu{
         display: none;
