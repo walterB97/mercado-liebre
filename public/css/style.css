@@ -35,6 +35,9 @@
     margin: -4px;
     border-radius: 3px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu{
@@ -222,11 +225,11 @@ article{
     border-radius: 5px;
     background-color: #03264C;
     color: #ebebeb;
-    transition: all 450ms;
+    transition: all 550ms;
 }
 .button-enviar:hover{
     background-color: #0022AA;
-    width: 105px;
+    width: 80px;
     } 
 
 @media(min-width: 481px ) {
