@@ -152,7 +152,6 @@ main{
     border: 1px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
-    position: absolute;
     right: 20px;
     color:#39b54a;
     position: relative;
@@ -338,8 +337,14 @@ article{
         display: none;
     }
     .contenedor01{
-        box-shadow: 0px 0px 10px rgb(100,100,100);
+       
         width: 23%;
+        transition: all 2s;
+        
+    }
+    .contenedor01:hover{ 
+        box-shadow: 3px 3px 3px 3px rgb(152, 146, 146);
+       
     }
  
     .ultima-visita{
@@ -369,6 +374,16 @@ article{
     }
     .precio{
         width: 60%;
+    }
+    .productos{
+        opacity: 0%;
+        width: 100%; 
+        transition: all 2s;
+        
+    }
+    .productos:hover{
+        opacity: 100%;
+        box-shadow: 2px 2px 2px 2px rgb(152, 146, 146)
     }
     footer{
         width: 100%;
